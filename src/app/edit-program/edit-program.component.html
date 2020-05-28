@@ -1,0 +1,26 @@
+<div class="col-md-6">
+  <h2 class="text-center">Edit Program</h2>
+  <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="programName">Program Name:</label>
+      <input formControlName="programName" placeholder="Program Name" name="programName" class="form-control" id="programName">
+    </div>
+
+    <div class="form-group">
+      <label for="startDate">Start Date:</label>
+      <input formControlName="startDate" placeholder="Start Date" name="startDate" class="form-control" id="startDate">
+    </div>
+
+    <div class="form-group">
+      <label for="endDate">End Date:</label>
+      <input formControlName="endDate" placeholder="End Date" name="endDate" class="form-control" id="endDate">
+    </div>
+
+    <div class="form-group">
+      <label for="location">Location:</label>
+      <input formControlName="location" placeholder="Location" name="location" class="form-control" id="location">
+    </div>
+
+    <button class="btn btn-success">Update</button>
+  </form>
+</div>

@@ -1,0 +1,39 @@
+{
+  "program": [
+    {
+      "id": 1,
+      "programName": "mba",
+      "startDate": "22-11-94",
+      "endDate": "22-11-97",
+      "location": "pune"
+    },
+    {
+      "id": 3,
+      "programName": "MBA-Updated",
+      "startDate": "22-09-98",
+      "endDate": "22-11-20",
+      "location": "banglore"
+    },
+    {
+      "id": 4,
+      "programName": "BBA",
+      "startDate": "22-02-2003",
+      "endDate": "22-11-2006",
+      "location": "patna"
+    },
+    {
+      "id": 5,
+      "programName": "MBBS",
+      "startDate": "22-04-97",
+      "endDate": "22-04-99",
+      "location": "bhopal"
+    },
+    {
+      "id": 6,
+      "programName": "BCA",
+      "startDate": "2020-05-01",
+      "endDate": "2020-05-07",
+      "location": "kashmir"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<div class="col-md-6">
+  <h2> Program Details</h2>
+  <button class="btn btn-danger" (click)="addProgram()"> Add Program</button>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th class="hidden">Id</th>
+      <th>ProgramName</th>
+      <th>StartDate</th>
+      <th>EndDate</th>
+      <th>Location</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let program of programs">
+      <td class="hidden">{{program.id}}</td>
+      <td>{{program.programName}}</td>
+      <td>{{program.startDate}}</td>
+      <td>{{program.endDate}}</td>
+      <td>{{program.location}}</td>
+      <td><button class="btn btn-danger" (click)="deleteProgram(program)"> Delete</button>
+        <button class="btn btn-danger" (click)="editProgram(program)" style="margin-left: 20px;"> Edit</button></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
